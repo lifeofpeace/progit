@@ -13,8 +13,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
         <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
 		<link rel="stylesheet" href="gitbook/font-awesome-4.3.0/css/font-awesome.min.css">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
         <link rel="shortcut icon" href="https://0532.gitbooks.io/progit/content/gitbook/images/favicon.ico" type="image/x-icon">
         
         
@@ -22,28 +22,7 @@
     
     <link rel="next" href="ff1ccf57e98c817df1efcd9fe44a8aeb/README.html" />
     
-    <style type="text/css">
-	
-	#Content{
-		height:400px;
-		width: 600px;
-		margin-top:20px;
-		 
-	}
-	#Content-Left{
-		height:300px;
-		width:200px;
-		margin:10px;
-		float:left;
-	}
-	#Content-Right{
-		height:300px;
-		width:200px;
-		margin:10px;
-		float:right;
-	}
-	
-	</style>
+    
 
         
     </head>
@@ -59,7 +38,7 @@ A.info:hover    {color:green;background:transparent;text-decoration:underline}
 </style>
 <!-- <div style='BORDER: 1px solid #DCE6F4; MARGIN-TOP: 20px; MARGIN-BOTTOM: 20px; MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px; PADDING: 5px; BACKGROUND-COLOR: #eef8ff;line-height:180%; COLOR: #000000; font-family: Arial; font-size: 8pt; width=100%; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#FFFFFFFF", EndColorStr="#F2F5FAFF");'>
 This page was saved using <a class="applink" href="http://www.spidersoft.com"><b>WebZIP 7.0.3.1030</b></a> <a class="applink" href="http://www.spidersoft.com"><b>offline browser</b></a>  (Unregistered) on  09/21/15 15:41:33.<br>
-<b>Address:</b> <a class="info" href="https://0532.gitbooks.io/progit/content/index.html">https://0532.gitbooks.io/progit/content/index.html</a><br>
+<b>Address:</b> <a class="info" href="https://0532.gitbooks.io/progit/content/">https://0532.gitbooks.io/progit/content/</a><br>
 <b>Title:</b> 前言 | Pro Git 中文版 &nbsp;&bull;&nbsp; <b>Size:</b> 46060 &nbsp;&bull;&nbsp; <b>Last Modified:</b> Sun, 08 Feb 2015 03:31:47 GMT<br></div>
 <!-- /Copyright � 2005. Spidersoft Ltd -->
 
@@ -1163,7 +1142,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="9.1" data-path="eb04be8dd776142cd3fbb52e27694746/848546a9618fd000742cef92366eb1b4.html">
             
                 
-                    <a href="./eb04be8dd776142cd3fbb52e27694746/848546a9618fd000742cef92366eb1b4.html">
+                    <a href="eb04be8dd776142cd3fbb52e27694746/848546a9618fd000742cef92366eb1b4.html">
                         <i class="fa fa-check"></i>
                         
                             <b>9.1.</b>
@@ -1298,10 +1277,10 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="divider"></li>
         <li>
             <a href="http://itmyhome.com/" target="blank" class="gitbook-link fa fa-copyright" style="text-align:center;">&nbsp;麦田技术博客</a>
-			
         </li>
-		
-		
+		<div style="display:none">
+			<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1254006603'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1254006603%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));</script>
+		</div>
         
     </ul>
 </div>
@@ -1309,17 +1288,73 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
     <div class="book-body">
         <div class="body-inner">
             <div class="book-header">
-			
-    <!-- Actions Left  -->
+    <!-- Actions Left 20150921 -->
     <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <!-- <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
     
-    <!-- Actions Right -->
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right 20150921
     
-    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="weibo" aria-label="Share on weibo"><i class="fa fa-weibo"></i></a>
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a> -->
+    
+    
+    <a href="#" target="_blank" class="btn pull-right weibo-sharing-link sharing-link" data-sharing="weibo" aria-label="Share on Weibo"><i class="fa fa-weibo"></i></a>
+    
     
 
     <!-- Title -->
     <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
         <a href="content.html" >Pro Git 中文版</a>
     </h1>
 </div>
@@ -1331,33 +1366,13 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
                     <section class="normal" id="section-gitbook_30">
                     
                         <h1 id="learn-git">Learn Git</h1>
-<!-- <p><a href="https://github.com/0532" target="_blank">GitHub地址</a>.</p> 
+<!-- <p><a href="https://github.com/0532" target="_blank">GitHub地址</a>.</p> -->
 <p><a href="https://gitcafe.com/lifeofpeace/progit" target="_blank">GitCafe地址</a>.</p>
 <p>The entire Pro Git book, written by Scott Chacon and published by Apress, is available here. All content is licensed under the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">Creative Commons Attribution Non Commercial Share Alike 3.0 license</a>. Print versions of the book are available on <a href="http://www.amazon.com/gp/product/1430218339?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20" target="_blank">Amazon.com</a>.</p>
 <p>This book is also an example of a book that can be generated in multiple languages.</p>
-<p><a href="ff1ccf57e98c817df1efcd9fe44a8aeb/README.html" target="_blank">开始阅读&gt;&gt;</a></p> -->
+<p><a href="ff1ccf57e98c817df1efcd9fe44a8aeb/README.html" target="_blank">开始阅读&gt;&gt;</a></p>
 
-<div id="Content">
-	<div id="Content-Left">
-		<p>记得早先少年时</p>
-		<p>大家诚诚恳恳</p>
-		<p>说一句 是一句</p>
-		</br>
-		<p>清早上火车站</p>
-		<p>长街黑暗无行人</p>
-		<p>卖豆浆的小店冒着热气</p>
-	</div>
-	<div id="Content-Right">
-		<p>从前的日色变得慢</p>
-		<p>车，马，邮件都慢</p>
-		<p>一生只够爱一个人</p>
-		</br>
-		<p>从前的锁也好看</p>
-		<p>钥匙精美有样子</p>
-		<p>你锁了 人家就懂了</p>
-	</div>
-</div>
-				
+                    
                     </section>
                 
                 
@@ -1372,11 +1387,13 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
     </div>
 </div>
 
-<script src="gitbook/jquery-1.8.0.min.js"></script>
+        
 <script src="gitbook/app.js"></script>
 
     
-  <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="../../../cdn.mathjax.org/mathjax/2.4-latest/MathJax.js~config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
     
     <script src="gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
     
@@ -1386,8 +1403,6 @@ require(["gitbook"], function(gitbook) {
     var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
     gitbook.start(config);
 });
-
-
 </script>
 
         

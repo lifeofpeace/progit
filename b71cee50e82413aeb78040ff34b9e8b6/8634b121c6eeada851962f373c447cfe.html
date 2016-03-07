@@ -5,45 +5,25 @@
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=11; IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
-        <title>前言 | Pro Git 中文版</title>
+        <title>储藏（Stashing） | Pro Git 中文版</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <meta name="description" content="progit中文版">
+        <meta name="description" content="">
         <meta name="generator" content="GitBook 1.5.0">
         <meta name="HandheldFriendly" content="true"/>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
-		<link rel="stylesheet" href="gitbook/font-awesome-4.3.0/css/font-awesome.min.css">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="stylesheet" href="../gitbook/font-awesome-4.3.0/css/font-awesome.min.css">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
         <link rel="shortcut icon" href="https://0532.gitbooks.io/progit/content/gitbook/images/favicon.ico" type="image/x-icon">
         
         
     
     
-    <link rel="next" href="ff1ccf57e98c817df1efcd9fe44a8aeb/README.html" />
+    <link rel="next" href="../b71cee50e82413aeb78040ff34b9e8b6/43b008000a1b086c3f13df2a060fd408.html" />
     
-    <style type="text/css">
-	
-	#Content{
-		height:400px;
-		width: 600px;
-		margin-top:20px;
-		 
-	}
-	#Content-Left{
-		height:300px;
-		width:200px;
-		margin:10px;
-		float:left;
-	}
-	#Content-Right{
-		height:300px;
-		width:200px;
-		margin:10px;
-		float:right;
-	}
-	
-	</style>
+    
+    <link rel="prev" href="../b71cee50e82413aeb78040ff34b9e8b6/23710791edcf94be33501dabef0ac13b.html" />
+    
 
         
     </head>
@@ -59,18 +39,18 @@ A.info:hover    {color:green;background:transparent;text-decoration:underline}
 </style>
 <!-- <div style='BORDER: 1px solid #DCE6F4; MARGIN-TOP: 20px; MARGIN-BOTTOM: 20px; MARGIN-LEFT: 5px; MARGIN-RIGHT: 5px; PADDING: 5px; BACKGROUND-COLOR: #eef8ff;line-height:180%; COLOR: #000000; font-family: Arial; font-size: 8pt; width=100%; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr="#FFFFFFFF", EndColorStr="#F2F5FAFF");'>
 This page was saved using <a class="applink" href="http://www.spidersoft.com"><b>WebZIP 7.0.3.1030</b></a> <a class="applink" href="http://www.spidersoft.com"><b>offline browser</b></a>  (Unregistered) on  09/21/15 15:41:33.<br>
-<b>Address:</b> <a class="info" href="https://0532.gitbooks.io/progit/content/index.html">https://0532.gitbooks.io/progit/content/index.html</a><br>
-<b>Title:</b> 前言 | Pro Git 中文版 &nbsp;&bull;&nbsp; <b>Size:</b> 46060 &nbsp;&bull;&nbsp; <b>Last Modified:</b> Sun, 08 Feb 2015 03:31:47 GMT<br></div>
+<b>Address:</b> <a class="info" href="https://0532.gitbooks.io/progit/content/b71cee50e82413aeb78040ff34b9e8b6/8634b121c6eeada851962f373c447cfe.html">https://0532.gitbooks.io/progit/content/b71cee50e82413aeb78040ff34b9e8b6/8634b121c6eeada851962f373c447cfe.html</a><br>
+<b>Title:</b> 储藏（Stashing） | Pro Git 中文版 &nbsp;&bull;&nbsp; <b>Size:</b> 52465 &nbsp;&bull;&nbsp; <b>Last Modified:</b> Sun, 08 Feb 2015 03:31:47 GMT<br></div>
 <!-- /Copyright � 2005. Spidersoft Ltd -->
 
 
         
         
-<link rel="stylesheet" href="gitbook/style.css">
+<link rel="stylesheet" href="../gitbook/style.css">
 
 
         
-    <div class="book" data-level="0" data-basepath="." data-revision="1423366324013">
+    <div class="book" data-level="6.3" data-basepath=".." data-revision="1423366324013">
     
 
 <div class="book-summary">
@@ -105,7 +85,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         
     
         
-        <li class="chapter active" data-level="0" data-path="index.html">
+        <li class="chapter " data-level="0" data-path="index.html">
             
                 
                     <a href="http://itmyhome.com/progit/">
@@ -122,7 +102,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="1" data-path="ff1ccf57e98c817df1efcd9fe44a8aeb/README.html">
             
                 
-                    <a href="ff1ccf57e98c817df1efcd9fe44a8aeb/README.html">
+                    <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.</b>
@@ -139,7 +119,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="1.1" data-path="ff1ccf57e98c817df1efcd9fe44a8aeb/c3c2acea22ea3f6a535ba0d2c45980bb.html">
             
                 
-                    <a href="ff1ccf57e98c817df1efcd9fe44a8aeb/c3c2acea22ea3f6a535ba0d2c45980bb.html">
+                    <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/c3c2acea22ea3f6a535ba0d2c45980bb.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.1.</b>
@@ -155,7 +135,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="1.2" data-path="ff1ccf57e98c817df1efcd9fe44a8aeb/fd13ea9b28efa9a1729b93bfb17f086d.html">
             
                 
-                    <a href="ff1ccf57e98c817df1efcd9fe44a8aeb/fd13ea9b28efa9a1729b93bfb17f086d.html">
+                    <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/fd13ea9b28efa9a1729b93bfb17f086d.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.2.</b>
@@ -171,7 +151,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="1.3" data-path="ff1ccf57e98c817df1efcd9fe44a8aeb/ae0ec90e20d54106d66f26ea8bc4b08b.html">
             
                 
-                    <a href="ff1ccf57e98c817df1efcd9fe44a8aeb/ae0ec90e20d54106d66f26ea8bc4b08b.html">
+                    <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/ae0ec90e20d54106d66f26ea8bc4b08b.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.3.</b>
@@ -187,7 +167,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="1.4" data-path="ff1ccf57e98c817df1efcd9fe44a8aeb/6e0c1c58b01e9bb06ff87500d5fef81c.html">
             
                 
-                    <a href="ff1ccf57e98c817df1efcd9fe44a8aeb/6e0c1c58b01e9bb06ff87500d5fef81c.html">
+                    <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/6e0c1c58b01e9bb06ff87500d5fef81c.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.4.</b>
@@ -203,7 +183,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="1.5" data-path="ff1ccf57e98c817df1efcd9fe44a8aeb/9ec5e864e2b643299104771e53bf607c.html">
             
                 
-                    <a href="ff1ccf57e98c817df1efcd9fe44a8aeb/9ec5e864e2b643299104771e53bf607c.html">
+                    <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/9ec5e864e2b643299104771e53bf607c.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.5.</b>
@@ -219,7 +199,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="1.6" data-path="ff1ccf57e98c817df1efcd9fe44a8aeb/0012ab3f506aaaa9e394d10a3a2501f0.html">
             
                 
-                    <a href="ff1ccf57e98c817df1efcd9fe44a8aeb/0012ab3f506aaaa9e394d10a3a2501f0.html">
+                    <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/0012ab3f506aaaa9e394d10a3a2501f0.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.6.</b>
@@ -235,7 +215,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="1.7" data-path="ff1ccf57e98c817df1efcd9fe44a8aeb/30f9e4a7f5b8cec98042d1015bf4c635.html">
             
                 
-                    <a href="ff1ccf57e98c817df1efcd9fe44a8aeb/30f9e4a7f5b8cec98042d1015bf4c635.html">
+                    <a href="../ff1ccf57e98c817df1efcd9fe44a8aeb/30f9e4a7f5b8cec98042d1015bf4c635.html">
                         <i class="fa fa-check"></i>
                         
                             <b>1.7.</b>
@@ -256,7 +236,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="2" data-path="ae0ec90e20d54106d66f26ea8bc4b08b/README.html">
             
                 
-                    <a href="ae0ec90e20d54106d66f26ea8bc4b08b/README.html">
+                    <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>2.</b>
@@ -273,7 +253,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="2.1" data-path="ae0ec90e20d54106d66f26ea8bc4b08b/107fe4ab44e898e1015240fbd8e18205.html">
             
                 
-                    <a href="ae0ec90e20d54106d66f26ea8bc4b08b/107fe4ab44e898e1015240fbd8e18205.html">
+                    <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/107fe4ab44e898e1015240fbd8e18205.html">
                         <i class="fa fa-check"></i>
                         
                             <b>2.1.</b>
@@ -289,7 +269,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="2.2" data-path="ae0ec90e20d54106d66f26ea8bc4b08b/3e436fe8a5f0c6a13913a517ba651922.html">
             
                 
-                    <a href="ae0ec90e20d54106d66f26ea8bc4b08b/3e436fe8a5f0c6a13913a517ba651922.html">
+                    <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/3e436fe8a5f0c6a13913a517ba651922.html">
                         <i class="fa fa-check"></i>
                         
                             <b>2.2.</b>
@@ -305,7 +285,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="2.3" data-path="ae0ec90e20d54106d66f26ea8bc4b08b/868feef91ec6e72ec2dab9ae0635960a.html">
             
                 
-                    <a href="ae0ec90e20d54106d66f26ea8bc4b08b/868feef91ec6e72ec2dab9ae0635960a.html">
+                    <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/868feef91ec6e72ec2dab9ae0635960a.html">
                         <i class="fa fa-check"></i>
                         
                             <b>2.3.</b>
@@ -321,7 +301,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="2.4" data-path="ae0ec90e20d54106d66f26ea8bc4b08b/1bcb7a7230ad12fe27337b0543290de1.html">
             
                 
-                    <a href="ae0ec90e20d54106d66f26ea8bc4b08b/1bcb7a7230ad12fe27337b0543290de1.html">
+                    <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/1bcb7a7230ad12fe27337b0543290de1.html">
                         <i class="fa fa-check"></i>
                         
                             <b>2.4.</b>
@@ -337,7 +317,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="2.5" data-path="ae0ec90e20d54106d66f26ea8bc4b08b/22ed938ef387482edeef7c9df5be341b.html">
             
                 
-                    <a href="ae0ec90e20d54106d66f26ea8bc4b08b/22ed938ef387482edeef7c9df5be341b.html">
+                    <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/22ed938ef387482edeef7c9df5be341b.html">
                         <i class="fa fa-check"></i>
                         
                             <b>2.5.</b>
@@ -353,7 +333,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="2.6" data-path="ae0ec90e20d54106d66f26ea8bc4b08b/cabca1a814ce6e7af2246e5ffce6a57e.html">
             
                 
-                    <a href="ae0ec90e20d54106d66f26ea8bc4b08b/cabca1a814ce6e7af2246e5ffce6a57e.html">
+                    <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/cabca1a814ce6e7af2246e5ffce6a57e.html">
                         <i class="fa fa-check"></i>
                         
                             <b>2.6.</b>
@@ -369,7 +349,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="2.7" data-path="ae0ec90e20d54106d66f26ea8bc4b08b/66ca05de55087c14f6704ce0ccf8155d.html">
             
                 
-                    <a href="ae0ec90e20d54106d66f26ea8bc4b08b/66ca05de55087c14f6704ce0ccf8155d.html">
+                    <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/66ca05de55087c14f6704ce0ccf8155d.html">
                         <i class="fa fa-check"></i>
                         
                             <b>2.7.</b>
@@ -385,7 +365,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="2.8" data-path="ae0ec90e20d54106d66f26ea8bc4b08b/30f9e4a7f5b8cec98042d1015bf4c635.html">
             
                 
-                    <a href="ae0ec90e20d54106d66f26ea8bc4b08b/30f9e4a7f5b8cec98042d1015bf4c635.html">
+                    <a href="../ae0ec90e20d54106d66f26ea8bc4b08b/30f9e4a7f5b8cec98042d1015bf4c635.html">
                         <i class="fa fa-check"></i>
                         
                             <b>2.8.</b>
@@ -406,7 +386,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="3" data-path="3b1652ba27b78115eac23a4bb00ea4fa/README.html">
             
                 
-                    <a href="3b1652ba27b78115eac23a4bb00ea4fa/README.html">
+                    <a href="../3b1652ba27b78115eac23a4bb00ea4fa/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>3.</b>
@@ -423,7 +403,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="3.1" data-path="3b1652ba27b78115eac23a4bb00ea4fa/7ec792e4b5a42cd44323c1da0ffb46d3.html">
             
                 
-                    <a href="3b1652ba27b78115eac23a4bb00ea4fa/7ec792e4b5a42cd44323c1da0ffb46d3.html">
+                    <a href="../3b1652ba27b78115eac23a4bb00ea4fa/7ec792e4b5a42cd44323c1da0ffb46d3.html">
                         <i class="fa fa-check"></i>
                         
                             <b>3.1.</b>
@@ -439,7 +419,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="3.2" data-path="3b1652ba27b78115eac23a4bb00ea4fa/fa9e39774296847022eb4e23c6e2f37b.html">
             
                 
-                    <a href="3b1652ba27b78115eac23a4bb00ea4fa/fa9e39774296847022eb4e23c6e2f37b.html">
+                    <a href="../3b1652ba27b78115eac23a4bb00ea4fa/fa9e39774296847022eb4e23c6e2f37b.html">
                         <i class="fa fa-check"></i>
                         
                             <b>3.2.</b>
@@ -455,7 +435,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="3.3" data-path="3b1652ba27b78115eac23a4bb00ea4fa/6aab4135f50b815ed5e576b5480271ca.html">
             
                 
-                    <a href="3b1652ba27b78115eac23a4bb00ea4fa/6aab4135f50b815ed5e576b5480271ca.html">
+                    <a href="../3b1652ba27b78115eac23a4bb00ea4fa/6aab4135f50b815ed5e576b5480271ca.html">
                         <i class="fa fa-check"></i>
                         
                             <b>3.3.</b>
@@ -471,7 +451,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="3.4" data-path="3b1652ba27b78115eac23a4bb00ea4fa/400fbab5b469bc68e77e7ba8a38de038.html">
             
                 
-                    <a href="3b1652ba27b78115eac23a4bb00ea4fa/400fbab5b469bc68e77e7ba8a38de038.html">
+                    <a href="../3b1652ba27b78115eac23a4bb00ea4fa/400fbab5b469bc68e77e7ba8a38de038.html">
                         <i class="fa fa-check"></i>
                         
                             <b>3.4.</b>
@@ -487,7 +467,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="3.5" data-path="3b1652ba27b78115eac23a4bb00ea4fa/7c9744505de1088d1d5c4fe6d1dcccab.html">
             
                 
-                    <a href="3b1652ba27b78115eac23a4bb00ea4fa/7c9744505de1088d1d5c4fe6d1dcccab.html">
+                    <a href="../3b1652ba27b78115eac23a4bb00ea4fa/7c9744505de1088d1d5c4fe6d1dcccab.html">
                         <i class="fa fa-check"></i>
                         
                             <b>3.5.</b>
@@ -503,7 +483,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="3.6" data-path="3b1652ba27b78115eac23a4bb00ea4fa/ef10bc7bf2dd11cddcf106e4f5a1a37a.html">
             
                 
-                    <a href="3b1652ba27b78115eac23a4bb00ea4fa/ef10bc7bf2dd11cddcf106e4f5a1a37a.html">
+                    <a href="../3b1652ba27b78115eac23a4bb00ea4fa/ef10bc7bf2dd11cddcf106e4f5a1a37a.html">
                         <i class="fa fa-check"></i>
                         
                             <b>3.6.</b>
@@ -519,7 +499,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="3.7" data-path="3b1652ba27b78115eac23a4bb00ea4fa/30f9e4a7f5b8cec98042d1015bf4c635.html">
             
                 
-                    <a href="3b1652ba27b78115eac23a4bb00ea4fa/30f9e4a7f5b8cec98042d1015bf4c635.html">
+                    <a href="../3b1652ba27b78115eac23a4bb00ea4fa/30f9e4a7f5b8cec98042d1015bf4c635.html">
                         <i class="fa fa-check"></i>
                         
                             <b>3.7.</b>
@@ -540,7 +520,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="4" data-path="99a33eb28b1b93b15bd60ce4d3731f51/README.html">
             
                 
-                    <a href="99a33eb28b1b93b15bd60ce4d3731f51/README.html">
+                    <a href="../99a33eb28b1b93b15bd60ce4d3731f51/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.</b>
@@ -557,7 +537,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="4.1" data-path="99a33eb28b1b93b15bd60ce4d3731f51/c1dd8616b7a0fb08e36c5d4f60ade5bc.html">
             
                 
-                    <a href="99a33eb28b1b93b15bd60ce4d3731f51/c1dd8616b7a0fb08e36c5d4f60ade5bc.html">
+                    <a href="../99a33eb28b1b93b15bd60ce4d3731f51/c1dd8616b7a0fb08e36c5d4f60ade5bc.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.1.</b>
@@ -573,7 +553,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="4.2" data-path="99a33eb28b1b93b15bd60ce4d3731f51/ffd675a9643dcffc9908a2f1e19d642c.html">
             
                 
-                    <a href="99a33eb28b1b93b15bd60ce4d3731f51/ffd675a9643dcffc9908a2f1e19d642c.html">
+                    <a href="../99a33eb28b1b93b15bd60ce4d3731f51/ffd675a9643dcffc9908a2f1e19d642c.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.2.</b>
@@ -589,7 +569,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="4.3" data-path="99a33eb28b1b93b15bd60ce4d3731f51/3303c10bd1ca5c46cff5ac87410f09ca.html">
             
                 
-                    <a href="99a33eb28b1b93b15bd60ce4d3731f51/3303c10bd1ca5c46cff5ac87410f09ca.html">
+                    <a href="../99a33eb28b1b93b15bd60ce4d3731f51/3303c10bd1ca5c46cff5ac87410f09ca.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.3.</b>
@@ -605,7 +585,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="4.4" data-path="99a33eb28b1b93b15bd60ce4d3731f51/8b4286f069552f8d1844d8fbf8dd8cc6.html">
             
                 
-                    <a href="99a33eb28b1b93b15bd60ce4d3731f51/8b4286f069552f8d1844d8fbf8dd8cc6.html">
+                    <a href="../99a33eb28b1b93b15bd60ce4d3731f51/8b4286f069552f8d1844d8fbf8dd8cc6.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.4.</b>
@@ -621,7 +601,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="4.5" data-path="99a33eb28b1b93b15bd60ce4d3731f51/99eddbf523aa931320314840b96a95d0.html">
             
                 
-                    <a href="99a33eb28b1b93b15bd60ce4d3731f51/99eddbf523aa931320314840b96a95d0.html">
+                    <a href="../99a33eb28b1b93b15bd60ce4d3731f51/99eddbf523aa931320314840b96a95d0.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.5.</b>
@@ -637,7 +617,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="4.6" data-path="99a33eb28b1b93b15bd60ce4d3731f51/cf0543c039db8fa75980f6673416db00.html">
             
                 
-                    <a href="99a33eb28b1b93b15bd60ce4d3731f51/cf0543c039db8fa75980f6673416db00.html">
+                    <a href="../99a33eb28b1b93b15bd60ce4d3731f51/cf0543c039db8fa75980f6673416db00.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.6.</b>
@@ -653,7 +633,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="4.7" data-path="99a33eb28b1b93b15bd60ce4d3731f51/dd767e39ff6f2caf159ca67273b5c8f7.html">
             
                 
-                    <a href="99a33eb28b1b93b15bd60ce4d3731f51/dd767e39ff6f2caf159ca67273b5c8f7.html">
+                    <a href="../99a33eb28b1b93b15bd60ce4d3731f51/dd767e39ff6f2caf159ca67273b5c8f7.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.7.</b>
@@ -669,7 +649,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="4.8" data-path="99a33eb28b1b93b15bd60ce4d3731f51/b60cff70126a55243f738debc93cae75.html">
             
                 
-                    <a href="99a33eb28b1b93b15bd60ce4d3731f51/b60cff70126a55243f738debc93cae75.html">
+                    <a href="../99a33eb28b1b93b15bd60ce4d3731f51/b60cff70126a55243f738debc93cae75.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.8.</b>
@@ -685,7 +665,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="4.9" data-path="99a33eb28b1b93b15bd60ce4d3731f51/c0f69ebbfa22751a350554ee55ba9556.html">
             
                 
-                    <a href="99a33eb28b1b93b15bd60ce4d3731f51/c0f69ebbfa22751a350554ee55ba9556.html">
+                    <a href="../99a33eb28b1b93b15bd60ce4d3731f51/c0f69ebbfa22751a350554ee55ba9556.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.9.</b>
@@ -701,7 +681,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="4.10" data-path="99a33eb28b1b93b15bd60ce4d3731f51/1badd646d480a18632cad2dd9f93433e.html">
             
                 
-                    <a href="99a33eb28b1b93b15bd60ce4d3731f51/1badd646d480a18632cad2dd9f93433e.html">
+                    <a href="../99a33eb28b1b93b15bd60ce4d3731f51/1badd646d480a18632cad2dd9f93433e.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.10.</b>
@@ -717,7 +697,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="4.11" data-path="99a33eb28b1b93b15bd60ce4d3731f51/30f9e4a7f5b8cec98042d1015bf4c635.html">
             
                 
-                    <a href="99a33eb28b1b93b15bd60ce4d3731f51/30f9e4a7f5b8cec98042d1015bf4c635.html">
+                    <a href="../99a33eb28b1b93b15bd60ce4d3731f51/30f9e4a7f5b8cec98042d1015bf4c635.html">
                         <i class="fa fa-check"></i>
                         
                             <b>4.11.</b>
@@ -738,7 +718,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="5" data-path="fa469cbec35474fb1a8c2bcc7a965f78/README.html">
             
                 
-                    <a href="fa469cbec35474fb1a8c2bcc7a965f78/README.html">
+                    <a href="../fa469cbec35474fb1a8c2bcc7a965f78/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>5.</b>
@@ -755,7 +735,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="5.1" data-path="fa469cbec35474fb1a8c2bcc7a965f78/7459726ce39c8d1116a6ab490836a71d.html">
             
                 
-                    <a href="fa469cbec35474fb1a8c2bcc7a965f78/7459726ce39c8d1116a6ab490836a71d.html">
+                    <a href="../fa469cbec35474fb1a8c2bcc7a965f78/7459726ce39c8d1116a6ab490836a71d.html">
                         <i class="fa fa-check"></i>
                         
                             <b>5.1.</b>
@@ -771,7 +751,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="5.2" data-path="fa469cbec35474fb1a8c2bcc7a965f78/ceb9daa69b63f214697dd1902cfaaa12.html">
             
                 
-                    <a href="fa469cbec35474fb1a8c2bcc7a965f78/ceb9daa69b63f214697dd1902cfaaa12.html">
+                    <a href="../fa469cbec35474fb1a8c2bcc7a965f78/ceb9daa69b63f214697dd1902cfaaa12.html">
                         <i class="fa fa-check"></i>
                         
                             <b>5.2.</b>
@@ -787,7 +767,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="5.3" data-path="fa469cbec35474fb1a8c2bcc7a965f78/a912723d01d00707f1f590de65838091.html">
             
                 
-                    <a href="fa469cbec35474fb1a8c2bcc7a965f78/a912723d01d00707f1f590de65838091.html">
+                    <a href="../fa469cbec35474fb1a8c2bcc7a965f78/a912723d01d00707f1f590de65838091.html">
                         <i class="fa fa-check"></i>
                         
                             <b>5.3.</b>
@@ -803,7 +783,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="5.4" data-path="fa469cbec35474fb1a8c2bcc7a965f78/30f9e4a7f5b8cec98042d1015bf4c635.html">
             
                 
-                    <a href="fa469cbec35474fb1a8c2bcc7a965f78/30f9e4a7f5b8cec98042d1015bf4c635.html">
+                    <a href="../fa469cbec35474fb1a8c2bcc7a965f78/30f9e4a7f5b8cec98042d1015bf4c635.html">
                         <i class="fa fa-check"></i>
                         
                             <b>5.4.</b>
@@ -824,7 +804,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="6" data-path="b71cee50e82413aeb78040ff34b9e8b6/README.html">
             
                 
-                    <a href="b71cee50e82413aeb78040ff34b9e8b6/README.html">
+                    <a href="../b71cee50e82413aeb78040ff34b9e8b6/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>6.</b>
@@ -841,7 +821,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="6.1" data-path="b71cee50e82413aeb78040ff34b9e8b6/396205adfe08dfb23597c077f641b541.html">
             
                 
-                    <a href="b71cee50e82413aeb78040ff34b9e8b6/396205adfe08dfb23597c077f641b541.html">
+                    <a href="../b71cee50e82413aeb78040ff34b9e8b6/396205adfe08dfb23597c077f641b541.html">
                         <i class="fa fa-check"></i>
                         
                             <b>6.1.</b>
@@ -857,7 +837,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="6.2" data-path="b71cee50e82413aeb78040ff34b9e8b6/23710791edcf94be33501dabef0ac13b.html">
             
                 
-                    <a href="b71cee50e82413aeb78040ff34b9e8b6/23710791edcf94be33501dabef0ac13b.html">
+                    <a href="../b71cee50e82413aeb78040ff34b9e8b6/23710791edcf94be33501dabef0ac13b.html">
                         <i class="fa fa-check"></i>
                         
                             <b>6.2.</b>
@@ -870,10 +850,10 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         </li>
     
         
-        <li class="chapter " data-level="6.3" data-path="b71cee50e82413aeb78040ff34b9e8b6/8634b121c6eeada851962f373c447cfe.html">
+        <li class="chapter active" data-level="6.3" data-path="b71cee50e82413aeb78040ff34b9e8b6/8634b121c6eeada851962f373c447cfe.html">
             
                 
-                    <a href="b71cee50e82413aeb78040ff34b9e8b6/8634b121c6eeada851962f373c447cfe.html">
+                    <a href="../b71cee50e82413aeb78040ff34b9e8b6/8634b121c6eeada851962f373c447cfe.html">
                         <i class="fa fa-check"></i>
                         
                             <b>6.3.</b>
@@ -889,7 +869,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="6.4" data-path="b71cee50e82413aeb78040ff34b9e8b6/43b008000a1b086c3f13df2a060fd408.html">
             
                 
-                    <a href="b71cee50e82413aeb78040ff34b9e8b6/43b008000a1b086c3f13df2a060fd408.html">
+                    <a href="../b71cee50e82413aeb78040ff34b9e8b6/43b008000a1b086c3f13df2a060fd408.html">
                         <i class="fa fa-check"></i>
                         
                             <b>6.4.</b>
@@ -905,7 +885,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="6.5" data-path="b71cee50e82413aeb78040ff34b9e8b6/13330b7efa9aa7411277539db0066194.html">
             
                 
-                    <a href="b71cee50e82413aeb78040ff34b9e8b6/13330b7efa9aa7411277539db0066194.html">
+                    <a href="../b71cee50e82413aeb78040ff34b9e8b6/13330b7efa9aa7411277539db0066194.html">
                         <i class="fa fa-check"></i>
                         
                             <b>6.5.</b>
@@ -921,7 +901,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="6.6" data-path="b71cee50e82413aeb78040ff34b9e8b6/1184d08127b60aeacbcd54da317a7a71.html">
             
                 
-                    <a href="b71cee50e82413aeb78040ff34b9e8b6/1184d08127b60aeacbcd54da317a7a71.html">
+                    <a href="../b71cee50e82413aeb78040ff34b9e8b6/1184d08127b60aeacbcd54da317a7a71.html">
                         <i class="fa fa-check"></i>
                         
                             <b>6.6.</b>
@@ -937,7 +917,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="6.7" data-path="b71cee50e82413aeb78040ff34b9e8b6/a4f6a96f087ae5e6e9a54276249fa6fa.html">
             
                 
-                    <a href="b71cee50e82413aeb78040ff34b9e8b6/a4f6a96f087ae5e6e9a54276249fa6fa.html">
+                    <a href="../b71cee50e82413aeb78040ff34b9e8b6/a4f6a96f087ae5e6e9a54276249fa6fa.html">
                         <i class="fa fa-check"></i>
                         
                             <b>6.7.</b>
@@ -953,7 +933,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="6.8" data-path="b71cee50e82413aeb78040ff34b9e8b6/1571c3c12c7f38e137ebd5d0b553e7e6.html">
             
                 
-                    <a href="b71cee50e82413aeb78040ff34b9e8b6/1571c3c12c7f38e137ebd5d0b553e7e6.html">
+                    <a href="../b71cee50e82413aeb78040ff34b9e8b6/1571c3c12c7f38e137ebd5d0b553e7e6.html">
                         <i class="fa fa-check"></i>
                         
                             <b>6.8.</b>
@@ -974,7 +954,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="7" data-path="ebe287b3a032c6834e132c70e914542a/README.html">
             
                 
-                    <a href="ebe287b3a032c6834e132c70e914542a/README.html">
+                    <a href="../ebe287b3a032c6834e132c70e914542a/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>7.</b>
@@ -991,7 +971,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="7.1" data-path="ebe287b3a032c6834e132c70e914542a/a51ba62d15f75f85c23183477dd2b5ef.html">
             
                 
-                    <a href="ebe287b3a032c6834e132c70e914542a/a51ba62d15f75f85c23183477dd2b5ef.html">
+                    <a href="../ebe287b3a032c6834e132c70e914542a/a51ba62d15f75f85c23183477dd2b5ef.html">
                         <i class="fa fa-check"></i>
                         
                             <b>7.1.</b>
@@ -1007,7 +987,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="7.2" data-path="ebe287b3a032c6834e132c70e914542a/6b4467e3a325a8e93a09c79ae29d3a7a.html">
             
                 
-                    <a href="ebe287b3a032c6834e132c70e914542a/6b4467e3a325a8e93a09c79ae29d3a7a.html">
+                    <a href="../ebe287b3a032c6834e132c70e914542a/6b4467e3a325a8e93a09c79ae29d3a7a.html">
                         <i class="fa fa-check"></i>
                         
                             <b>7.2.</b>
@@ -1023,7 +1003,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="7.3" data-path="ebe287b3a032c6834e132c70e914542a/6bdb1e002b8356b94af7122fc78fb292.html">
             
                 
-                    <a href="ebe287b3a032c6834e132c70e914542a/6bdb1e002b8356b94af7122fc78fb292.html">
+                    <a href="../ebe287b3a032c6834e132c70e914542a/6bdb1e002b8356b94af7122fc78fb292.html">
                         <i class="fa fa-check"></i>
                         
                             <b>7.3.</b>
@@ -1039,7 +1019,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="7.4" data-path="ebe287b3a032c6834e132c70e914542a/aa39eb58c8a517ff8276bf09f92c2e17.html">
             
                 
-                    <a href="ebe287b3a032c6834e132c70e914542a/aa39eb58c8a517ff8276bf09f92c2e17.html">
+                    <a href="../ebe287b3a032c6834e132c70e914542a/aa39eb58c8a517ff8276bf09f92c2e17.html">
                         <i class="fa fa-check"></i>
                         
                             <b>7.4.</b>
@@ -1055,7 +1035,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="7.5" data-path="ebe287b3a032c6834e132c70e914542a/1571c3c12c7f38e137ebd5d0b553e7e6.html">
             
                 
-                    <a href="ebe287b3a032c6834e132c70e914542a/1571c3c12c7f38e137ebd5d0b553e7e6.html">
+                    <a href="../ebe287b3a032c6834e132c70e914542a/1571c3c12c7f38e137ebd5d0b553e7e6.html">
                         <i class="fa fa-check"></i>
                         
                             <b>7.5.</b>
@@ -1076,7 +1056,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="8" data-path="7d1e3d0cb73ec4482c8ec84512255372/README.html">
             
                 
-                    <a href="7d1e3d0cb73ec4482c8ec84512255372/README.html">
+                    <a href="../7d1e3d0cb73ec4482c8ec84512255372/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>8.</b>
@@ -1093,7 +1073,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="8.1" data-path="7d1e3d0cb73ec4482c8ec84512255372/ce9964b37e9170a45aa7d79c34eefa15.html">
             
                 
-                    <a href="7d1e3d0cb73ec4482c8ec84512255372/ce9964b37e9170a45aa7d79c34eefa15.html">
+                    <a href="../7d1e3d0cb73ec4482c8ec84512255372/ce9964b37e9170a45aa7d79c34eefa15.html">
                         <i class="fa fa-check"></i>
                         
                             <b>8.1.</b>
@@ -1109,7 +1089,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="8.2" data-path="7d1e3d0cb73ec4482c8ec84512255372/243dee579e1958b7ef4eb4298c629637.html">
             
                 
-                    <a href="7d1e3d0cb73ec4482c8ec84512255372/243dee579e1958b7ef4eb4298c629637.html">
+                    <a href="../7d1e3d0cb73ec4482c8ec84512255372/243dee579e1958b7ef4eb4298c629637.html">
                         <i class="fa fa-check"></i>
                         
                             <b>8.2.</b>
@@ -1125,7 +1105,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="8.3" data-path="7d1e3d0cb73ec4482c8ec84512255372/1571c3c12c7f38e137ebd5d0b553e7e6.html">
             
                 
-                    <a href="7d1e3d0cb73ec4482c8ec84512255372/1571c3c12c7f38e137ebd5d0b553e7e6.html">
+                    <a href="../7d1e3d0cb73ec4482c8ec84512255372/1571c3c12c7f38e137ebd5d0b553e7e6.html">
                         <i class="fa fa-check"></i>
                         
                             <b>8.3.</b>
@@ -1146,7 +1126,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="9" data-path="eb04be8dd776142cd3fbb52e27694746/README.html">
             
                 
-                    <a href="eb04be8dd776142cd3fbb52e27694746/README.html">
+                    <a href="../eb04be8dd776142cd3fbb52e27694746/README.html">
                         <i class="fa fa-check"></i>
                         
                             <b>9.</b>
@@ -1163,7 +1143,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="9.1" data-path="eb04be8dd776142cd3fbb52e27694746/848546a9618fd000742cef92366eb1b4.html">
             
                 
-                    <a href="./eb04be8dd776142cd3fbb52e27694746/848546a9618fd000742cef92366eb1b4.html">
+                    <a href="../eb04be8dd776142cd3fbb52e27694746/848546a9618fd000742cef92366eb1b4.html">
                         <i class="fa fa-check"></i>
                         
                             <b>9.1.</b>
@@ -1179,7 +1159,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="9.2" data-path="eb04be8dd776142cd3fbb52e27694746/65f65e0dde98528ec554e4540bb9b259.html">
             
                 
-                    <a href="eb04be8dd776142cd3fbb52e27694746/65f65e0dde98528ec554e4540bb9b259.html">
+                    <a href="../eb04be8dd776142cd3fbb52e27694746/65f65e0dde98528ec554e4540bb9b259.html">
                         <i class="fa fa-check"></i>
                         
                             <b>9.2.</b>
@@ -1195,7 +1175,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="9.3" data-path="eb04be8dd776142cd3fbb52e27694746/92abc307328bd414f4cd589a4400994b.html">
             
                 
-                    <a href="eb04be8dd776142cd3fbb52e27694746/92abc307328bd414f4cd589a4400994b.html">
+                    <a href="../eb04be8dd776142cd3fbb52e27694746/92abc307328bd414f4cd589a4400994b.html">
                         <i class="fa fa-check"></i>
                         
                             <b>9.3.</b>
@@ -1211,7 +1191,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="9.4" data-path="eb04be8dd776142cd3fbb52e27694746/04a88e273a78a3b979990d5be7cf7880.html">
             
                 
-                    <a href="eb04be8dd776142cd3fbb52e27694746/04a88e273a78a3b979990d5be7cf7880.html">
+                    <a href="../eb04be8dd776142cd3fbb52e27694746/04a88e273a78a3b979990d5be7cf7880.html">
                         <i class="fa fa-check"></i>
                         
                             <b>9.4.</b>
@@ -1227,7 +1207,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="9.5" data-path="eb04be8dd776142cd3fbb52e27694746/1e5b18c05b8003e44b020ecff76974c4.html">
             
                 
-                    <a href="eb04be8dd776142cd3fbb52e27694746/1e5b18c05b8003e44b020ecff76974c4.html">
+                    <a href="../eb04be8dd776142cd3fbb52e27694746/1e5b18c05b8003e44b020ecff76974c4.html">
                         <i class="fa fa-check"></i>
                         
                             <b>9.5.</b>
@@ -1243,7 +1223,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="9.6" data-path="eb04be8dd776142cd3fbb52e27694746/ccb786f28dc36b65f45a70a45311367b.html">
             
                 
-                    <a href="eb04be8dd776142cd3fbb52e27694746/ccb786f28dc36b65f45a70a45311367b.html">
+                    <a href="../eb04be8dd776142cd3fbb52e27694746/ccb786f28dc36b65f45a70a45311367b.html">
                         <i class="fa fa-check"></i>
                         
                             <b>9.6.</b>
@@ -1259,7 +1239,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="9.7" data-path="eb04be8dd776142cd3fbb52e27694746/d71c14108b781f14af2ed4bccfbce106.html">
             
                 
-                    <a href="eb04be8dd776142cd3fbb52e27694746/d71c14108b781f14af2ed4bccfbce106.html">
+                    <a href="../eb04be8dd776142cd3fbb52e27694746/d71c14108b781f14af2ed4bccfbce106.html">
                         <i class="fa fa-check"></i>
                         
                             <b>9.7.</b>
@@ -1275,7 +1255,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="chapter " data-level="9.8" data-path="eb04be8dd776142cd3fbb52e27694746/1571c3c12c7f38e137ebd5d0b553e7e6.html">
             
                 
-                    <a href="eb04be8dd776142cd3fbb52e27694746/1571c3c12c7f38e137ebd5d0b553e7e6.html">
+                    <a href="../eb04be8dd776142cd3fbb52e27694746/1571c3c12c7f38e137ebd5d0b553e7e6.html">
                         <i class="fa fa-check"></i>
                         
                             <b>9.8.</b>
@@ -1298,10 +1278,7 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         <li class="divider"></li>
         <li>
             <a href="http://itmyhome.com/" target="blank" class="gitbook-link fa fa-copyright" style="text-align:center;">&nbsp;麦田技术博客</a>
-			
         </li>
-		
-		
         
     </ul>
 </div>
@@ -1309,18 +1286,74 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
     <div class="book-body">
         <div class="body-inner">
             <div class="book-header">
-			
-    <!-- Actions Left  -->
+    <!-- Actions Left 20150921 -->
     <a href="#" class="btn pull-left toggle-summary" aria-label="Toggle summary"><i class="fa fa-align-justify"></i></a>
+    <!-- <a href="#" class="btn pull-left toggle-search" aria-label="Toggle search"><i class="fa fa-search"></i></a>
     
-    <!-- Actions Right -->
+    <div id="font-settings-wrapper" class="dropdown pull-left">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle font settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+    <div class="dropdown-caret">
+        <span class="caret-outer"></span>
+        <span class="caret-inner"></span>
+    </div>
+
+    <div class="buttons">
+        <button type="button" id="reduce-font-size" class="button size-2">A</button>
+        <button type="button" id="enlarge-font-size" class="button size-2">A</button>
+    </div>
+
+    <div class="buttons font-family-list">
+        <button type="button" data-font="0" class="button">Serif</button>
+        <button type="button" data-font="1" class="button">Sans</button>
+    </div>
+
+    <div class="buttons color-theme-list">
+        <button type="button" id="color-theme-preview-0" class="button size-3" data-theme="0">White</button>
+        <button type="button" id="color-theme-preview-1" class="button size-3" data-theme="1">Sepia</button>
+        <button type="button" id="color-theme-preview-2" class="button size-3" data-theme="2">Night</button>
+    </div>
+</div>
+
+    </div>
+
+    <!-- Actions Right 20150921
     
-    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="weibo" aria-label="Share on weibo"><i class="fa fa-weibo"></i></a>
+    <div class="dropdown pull-right">
+        <a href="#" class="btn toggle-dropdown" aria-label="Toggle share dropdown"><i class="fa fa-share-alt"></i>
+        </a>
+        <div class="dropdown-menu font-settings dropdown-left">
+            <div class="dropdown-caret">
+                <span class="caret-outer"></span>
+                <span class="caret-inner"></span>
+            </div>
+            <div class="buttons">
+                <button type="button" data-sharing="twitter" class="button">Twitter</button>
+                <button type="button" data-sharing="google-plus" class="button">Google</button>
+                <button type="button" data-sharing="facebook" class="button">Facebook</button>
+                <button type="button" data-sharing="weibo" class="button">Weibo</button>
+                <button type="button" data-sharing="instapaper" class="button">Instapaper</button>
+            </div>
+        </div>
+    </div>
+    
+
+    
+    <a href="#" target="_blank" class="btn pull-right google-plus-sharing-link sharing-link" data-sharing="google-plus" aria-label="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right facebook-sharing-link sharing-link" data-sharing="facebook" aria-label="Share on Facebook"><i class="fa fa-facebook"></i></a> -->
+    
+    
+    <a href="#" target="_blank" class="btn pull-right weibo-sharing-link sharing-link" data-sharing="weibo" aria-label="Share on Weibo"><i class="fa fa-weibo"></i></a>
+    
     
 
     <!-- Title -->
     <h1>
-        <a href="content.html" >Pro Git 中文版</a>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../content.html" >Pro Git 中文版</a>
     </h1>
 </div>
 
@@ -1328,36 +1361,100 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_30">
+                    <section class="normal" id="section-gitbook_7">
                     
-                        <h1 id="learn-git">Learn Git</h1>
-<!-- <p><a href="https://github.com/0532" target="_blank">GitHub地址</a>.</p> 
-<p><a href="https://gitcafe.com/lifeofpeace/progit" target="_blank">GitCafe地址</a>.</p>
-<p>The entire Pro Git book, written by Scott Chacon and published by Apress, is available here. All content is licensed under the <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" target="_blank">Creative Commons Attribution Non Commercial Share Alike 3.0 license</a>. Print versions of the book are available on <a href="http://www.amazon.com/gp/product/1430218339?ie=UTF8&camp=1789&creative=9325&creativeASIN=1430218339&linkCode=as2&tag=git-sfconservancy-20" target="_blank">Amazon.com</a>.</p>
-<p>This book is also an example of a book that can be generated in multiple languages.</p>
-<p><a href="ff1ccf57e98c817df1efcd9fe44a8aeb/README.html" target="_blank">开始阅读&gt;&gt;</a></p> -->
+                        <h1 id="stashing">储藏（Stashing）</h1>
+<p>经常有这样的事情发生，当你正在进行项目中某一部分的工作，里面的东西处于一个比较杂乱的状态，而你想转到其他分支上进行一些工作。问题是，你不想提交进行了一半的工作，否则以后你无法回到这个工作点。解决这个问题的办法就是<code>git stash</code>命令。</p>
+<p>“‘储藏”“可以获取你工作目录的中间状态——也就是你修改过的被追踪的文件和暂存的变更——并将它保存到一个未完结变更的堆栈中，随时可以重新应用。</p>
+<h2 id="">储藏你的工作</h2>
+<p>为了演示这一功能，你可以进入你的项目，在一些文件上进行工作，有可能还暂存其中一个变更。如果你运行 <code>git status</code>，你可以看到你的中间状态：</p>
+<pre><code>$ git status
+# On branch master
+# Changes to be committed:
+#   (use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)
+#
+#      modified:   index.html
+#
+# Changes not staged for commit:
+#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+#
+#      modified:   lib/simplegit.rb
+#
+</code></pre><p>现在你想切换分支，但是你还不想提交你正在进行中的工作；所以你储藏这些变更。为了往堆栈推送一个新的储藏，只要运行 <code>git stash</code>：</p>
+<pre><code>$ git stash
+Saved working directory and index state \
+  &quot;WIP on master: 049d078 added the index file&quot;
+HEAD is now at 049d078 added the index file
+(To restore them type &quot;git stash apply&quot;)
+</code></pre><p>你的工作目录就干净了：</p>
+<pre><code>$ git status
+# On branch master
+nothing to commit (working directory clean)
+</code></pre><p>这时，你可以方便地切换到其他分支工作；你的变更都保存在栈上。要查看现有的储藏，你可以使用 <code>git stash list</code>：</p>
+<pre><code>$ git stash list
+stash@{0}: WIP on master: 049d078 added the index file
+stash@{1}: WIP on master: c264051... Revert &quot;added file_size&quot;
+stash@{2}: WIP on master: 21d80a5... added number to log
+</code></pre><p>在这个案例中，之前已经进行了两次储藏，所以你可以访问到三个不同的储藏。你可以重新应用你刚刚实施的储藏，所采用的命令就是之前在原始的 stash 命令的帮助输出里提示的：<code>git stash apply</code>。如果你想应用更早的储藏，你可以通过名字指定它，像这样：<code>git stash apply stash@{2}</code>。如果你不指明，Git 默认使用最近的储藏并尝试应用它：</p>
+<pre><code>$ git stash apply
+# On branch master
+# Changes not staged for commit:
+#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+#
+#      modified:   index.html
+#      modified:   lib/simplegit.rb
+#
+</code></pre><p>你可以看到 Git 重新修改了你所储藏的那些当时尚未提交的文件。在这个案例里，你尝试应用储藏的工作目录是干净的，并且属于同一分支；但是一个干净的工作目录和应用到相同的分支上并不是应用储藏的必要条件。你可以在其中一个分支上保留一份储藏，随后切换到另外一个分支，再重新应用这些变更。在工作目录里包含已修改和未提交的文件时，你也可以应用储藏——Git 会给出归并冲突如果有任何变更无法干净地被应用。</p>
+<p>对文件的变更被重新应用，但是被暂存的文件没有重新被暂存。想那样的话，你必须在运行 <code>git stash apply</code> 命令时带上一个 <code>--index</code> 的选项来告诉命令重新应用被暂存的变更。如果你是这么做的，你应该已经回到你原来的位置：</p>
+<pre><code>$ git stash apply --index
+# On branch master
+# Changes to be committed:
+#   (use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)
+#
+#      modified:   index.html
+#
+# Changes not staged for commit:
+#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+#
+#      modified:   lib/simplegit.rb
+#
+</code></pre><p>apply 选项只尝试应用储藏的工作——储藏的内容仍然在栈上。要移除它，你可以运行 <code>git stash drop</code>，加上你希望移除的储藏的名字：</p>
+<pre><code>$ git stash list
+stash@{0}: WIP on master: 049d078 added the index file
+stash@{1}: WIP on master: c264051... Revert &quot;added file_size&quot;
+stash@{2}: WIP on master: 21d80a5... added number to log
+$ git stash drop stash@{0}
+Dropped stash@{0} (364e91f3f268f0900bc3ee613f9f733e82aaed43)
+</code></pre><p>你也可以运行 <code>git stash pop</code> 来重新应用储藏，同时立刻将其从堆栈中移走。</p>
+<h2 id="un-applying-a-stash">取消储藏(Un-applying a Stash)</h2>
+<p>在某些情况下，你可能想应用储藏的修改，在进行了一些其他的修改后，又要取消之前所应用储藏的修改。Git没有提供类似于 <code>stash unapply</code> 的命令，但是可以通过取消该储藏的补丁达到同样的效果：</p>
+<pre><code>$ git stash show -p stash@{0} | git apply -R
+</code></pre><p>同样的，如果你沒有指定具体的某个储藏，Git 会选择最近的储藏：</p>
+<pre><code>$ git stash show -p | git apply -R
+</code></pre><p>你可能会想要新建一个別名，在你的 Git 里增加一个 <code>stash-unapply</code> 命令，这样更有效率。例如：</p>
+<pre><code>$ git config --global alias.stash-unapply &#39;!git stash show -p | git apply -R&#39;
+$ git stash
+$ #... work work work
+$ git stash-unapply
+</code></pre><h2 id="">从储藏中创建分支</h2>
+<p>如果你储藏了一些工作，暂时不去理会，然后继续在你储藏工作的分支上工作，你在重新应用工作时可能会碰到一些问题。如果尝试应用的变更是针对一个你那之后修改过的文件，你会碰到一个归并冲突并且必须去化解它。如果你想用更方便的方法来重新检验你储藏的变更，你可以运行 <code>git stash branch</code>，这会创建一个新的分支，检出你储藏工作时的所处的提交，重新应用你的工作，如果成功，将会丢弃储藏。</p>
+<pre><code>$ git stash branch testchanges
+Switched to a new branch &quot;testchanges&quot;
+# On branch testchanges
+# Changes to be committed:
+#   (use &quot;git reset HEAD &lt;file&gt;...&quot; to unstage)
+#
+#      modified:   index.html
+#
+# Changes not staged for commit:
+#   (use &quot;git add &lt;file&gt;...&quot; to update what will be committed)
+#
+#      modified:   lib/simplegit.rb
+#
+Dropped refs/stash@{0} (f0dfc4d5dc332d1cee34a634182e168c4efc3359)
+</code></pre><p>这是一个很棒的捷径来恢复储藏的工作然后在新的分支上继续当时的工作。</p>
 
-<div id="Content">
-	<div id="Content-Left">
-		<p>记得早先少年时</p>
-		<p>大家诚诚恳恳</p>
-		<p>说一句 是一句</p>
-		</br>
-		<p>清早上火车站</p>
-		<p>长街黑暗无行人</p>
-		<p>卖豆浆的小店冒着热气</p>
-	</div>
-	<div id="Content-Right">
-		<p>从前的日色变得慢</p>
-		<p>车，马，邮件都慢</p>
-		<p>一生只够爱一个人</p>
-		</br>
-		<p>从前的锁也好看</p>
-		<p>钥匙精美有样子</p>
-		<p>你锁了 人家就懂了</p>
-	</div>
-</div>
-				
+                    
                     </section>
                 
                 
@@ -1366,19 +1463,23 @@ This page was saved using <a class="applink" href="http://www.spidersoft.com"><b
         </div>
 
         
+        <a href="../b71cee50e82413aeb78040ff34b9e8b6/23710791edcf94be33501dabef0ac13b.html" class="navigation navigation-prev " aria-label="Previous page: 交互式暂存"><i class="fa fa-angle-left"></i></a>
         
-        <a href="ff1ccf57e98c817df1efcd9fe44a8aeb/README.html" class="navigation navigation-next navigation-unique" aria-label="Next page: 起步" style="margin-right: 17px;"><i class="fa fa-angle-right"></i></a>
+        
+        <a href="../b71cee50e82413aeb78040ff34b9e8b6/43b008000a1b086c3f13df2a060fd408.html" class="navigation navigation-next " aria-label="Next page: 重写历史" style="margin-right: 17px;"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>
 
-<script src="gitbook/jquery-1.8.0.min.js"></script>
-<script src="gitbook/app.js"></script>
+        
+<script src="../gitbook/app.js"></script>
 
     
-  <script src="https://cdn.mathjax.org/mathjax/2.4-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="../../../../cdn.mathjax.org/mathjax/2.4-latest/MathJax.js~config=TeX-AMS-MML_HTMLorMML"></script>
     
-    <script src="gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
     
 
 <script>
@@ -1386,8 +1487,6 @@ require(["gitbook"], function(gitbook) {
     var config = {"fontSettings":{"theme":null,"family":"sans","size":2}};
     gitbook.start(config);
 });
-
-
 </script>
 
         
